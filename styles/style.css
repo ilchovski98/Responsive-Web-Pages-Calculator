@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width:100%;
+    text-align: center;
+    background-color: #4CAF50;
+}
+
+.header h1 {
+    color: #f1f1f1;
+}
+
+.navigation {
+    width: 100%;
+    text-align: center;
+    padding-top:20px;
+}
+
+.navigation h3 {
+    padding-bottom: 15px;
+}
+
+.navigation li {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin: 10px 15px;
+    list-style-type: none;
+}
+
+.navigation li:hover {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.navigation a {
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 9px 3.2em;     
+    margin: -2em;
+}
+
+.navigation a:hover {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+li a {
+    text-decoration: none;
+    color:black;
+}
+
+.side {
+    background-color: #32a4e7;
+    border-radius: 5px;
+}
+
+.side p {
+    color: #f1f1f1;
+}
+
+.side h2 {
+    color: #f1f1f1;
+}
+
+.foot {
+    border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    line-height: 14px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.foot p {
+    font-size: 0.8em;
+}
+
+h1 {
+    padding: 30px 30px 20px;
+    font-family: arial;
+    color: #111;
+    line-height:34px;
+    font-size:40px;
+}
+
+h2 {
+    padding:15px 30px 10px;
+    font-family: arial;
+    color: #111;
+    line-height:24px;
+    font-size:30px;
+}
+
+p {
+    padding: 0px 30px 20px;
+    font-family: arial;
+    color: #111;
+    line-height:24px;
+    font-size: 16px;
+}
+
+@media only screen and (min-width:768px) {
+    .navigation {
+        width:30%;
+        float: left;
+    }
+
+    .mains {
+        width:70%;
+        float: right;
+    }
+
+    .side {
+        width: 26%;
+        float: left;
+        margin: 15px 0px 30px 15px;
+    }
+
+    .foot {
+        clear:both;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .navigation {
+        width:25%;
+        float: left;
+    }
+    .mains {
+        width:50%;
+        float: left;
+    }
+
+    .col {
+        display:table;
+
+    }
+
+    .side {
+        width: 20%;
+        float: left;
+        margin: 60px auto auto auto;
+    }
+
+    .foot {
+        clear:both;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    .all {
+        width: 1300px;
+        margin:0px auto;
+    }
+}

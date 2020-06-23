@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width:100%;
+    text-align: center;
+    background-color: #4CAF50;
+}
+
+.header h1 {
+    color: #f1f1f1;
+}
+
+.navigation {
+    width: 100%;
+    text-align: center;
+    padding-top:20px;
+}
+
+.navigation h3 {
+    padding-bottom: 15px;
+}
+
+.navigation li {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin: 10px 15px;
+    list-style-type: none;
+}
+
+.navigation li:hover, a:hover {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+li a {
+    text-decoration: none;
+    color:black;
+}
+
+#calculator {
+    background-color: #32a4e7;
+    height: 300px;
+}
+
+#calculator p {
+    color: #f1f1f1;
+}
+
+#calculator h3 {
+    color: #f1f1f1;
+}
+
+#inputField {
+    display: block;
+    margin:10px auto;
+    height: 35px;
+    width: 80%;
+    font-size: 2em;
+}
+
+#actions {
+    text-align: center;
+    margin: 0px auto 10px auto;
+    display:block;
+}
+
+#add, #subtract, #multiply, #divide {
+    background-color: rgb(240, 115, 77);
+    padding: 12px 20px;
+    border: 1px solid black;
+}
+
+#add:hover, #subtract:hover, #multiply:hover, #divide:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+#results {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.foot {
+    border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    line-height: 14px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.foot p {
+    font-size: 0.8em;
+}
+
+h1 {
+    padding: 30px 30px 20px;
+    font-family: arial;
+    color: #111;
+    line-height:34px;
+    font-size:40px;
+}
+
+h2 {
+    padding:15px 30px 10px;
+    font-family: arial;
+    color: #111;
+    line-height:24px;
+    font-size:30px;
+}
+
+p {
+    padding: 0px 30px 20px;
+    font-family: arial;
+    color: #111;
+    line-height:24px;
+    font-size: 16px;
+}
+
+@media only screen and (min-width:370px) {
+    #calculator {
+        width: 370px;
+        display:block;
+        margin:0 auto;
+    }
+}
+
+@media only screen and (min-width:470px) {
+    #calculator {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .navigation {
+        width:30%;
+        float: left;
+    }
+
+    #calculator {
+        width: 300px;
+        float: left;
+        margin: 15px 0px 30px 15px;
+    }
+
+    .foot {
+        clear:both;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .navigation {
+        width:25%;
+        float: left;
+    }
+
+    .col {
+        display:table;
+
+    }
+
+    #calculator {
+        width: 300px;
+        float: left;
+        margin: 15px 0px 30px 15px;
+    }
+
+    .foot {
+        clear:both;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    .all {
+        width: 1300px;
+        margin:0px auto;
+    }
+}
